@@ -1,18 +1,4 @@
-/*
-  # Add More Low Carbon Rating Products
 
-  1. New Products
-    - Additional electronics with lower efficiency ratings
-    - More beauty products with conventional ingredients  
-    - Kitchen items with less sustainable materials
-    - Clothing with standard production methods
-    - Office supplies with conventional materials
-
-  2. Purpose
-    - Provide more variety for alternative suggestions feature
-    - Demonstrate carbon rating comparison system
-    - Give users more opportunities to make eco-friendly choices
-*/
 
 -- Additional Electronics (Lower efficiency)
 INSERT INTO products (name, description, price, image_url, category, carbon_rating, stock_quantity) VALUES

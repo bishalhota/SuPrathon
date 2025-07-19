@@ -1,18 +1,3 @@
-/*
-  # Add Low Carbon Rating Products
-
-  1. New Products
-    - Add products with carbon ratings below 4.0 across different categories
-    - Include variety of price points and categories
-    - Ensure realistic product descriptions and pricing
-
-  2. Categories Covered
-    - Electronics with lower efficiency
-    - Beauty products with conventional ingredients  
-    - Kitchen items with less sustainable materials
-    - Clothing with conventional production
-    - Office supplies with standard materials
-*/
 
 -- Insert low carbon rating products
 INSERT INTO products (name, description, price, image_url, category, carbon_rating, stock_quantity) VALUES

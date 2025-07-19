@@ -1,21 +1,3 @@
-/*
-  # Carbon Savings Tracker System
-
-  1. New Tables
-    - `carbon_savings` - Track carbon savings from eco-friendly purchases
-    - `global_impact_stats` - Store aggregated carbon savings data
-
-  2. Features
-    - Track individual customer carbon savings
-    - Calculate global impact statistics
-    - Store carbon savings per purchase
-    - Track eco-friendly product purchases
-
-  3. Carbon Savings Calculation
-    - Based on carbon rating vs baseline (3.0 rating)
-    - Higher rating = more carbon saved
-    - Formula: (carbon_rating - 3.0) * product_weight * 0.1 * quantity
-*/
 
 -- Carbon savings tracking table
 CREATE TABLE IF NOT EXISTS carbon_savings (

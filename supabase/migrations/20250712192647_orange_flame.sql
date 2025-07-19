@@ -1,17 +1,3 @@
-/*
-  # Remove EcoCoins and Implement Carbon Credits Only System
-
-  1. Changes
-    - Remove eco_coins column from users table
-    - Update carbon credits system to be the primary reward
-    - Carbon credits earned based on carbon offsetting contributions only
-    - 10 credits per 100 Rs spent on offsetting
-
-  2. Carbon Rating Color System
-    - Red: < 3.0 (Heavy emphasis on offsetting)
-    - Yellow: 3.0 - 3.9 (Moderate emphasis)
-    - Green: 4.0+ (Light suggestion)
-*/
 
 -- Remove eco_coins column from users table
 DO $$

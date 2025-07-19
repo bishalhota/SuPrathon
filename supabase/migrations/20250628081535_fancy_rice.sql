@@ -1,20 +1,4 @@
-/*
-  # Complete E-commerce Database Schema
 
-  1. New Tables
-    - `products` - Product catalog with carbon ratings
-    - `users` - User accounts with EcoCoins
-    - `cart_items` - Shopping cart functionality
-    - `orders` - Order management
-    - `order_items` - Individual items in orders
-    - `carbon_offsets` - Track carbon offset contributions
-    - `categories` - Product categories
-
-  2. Security
-    - Enable RLS on all tables
-    - Add policies for authenticated users
-    - Public read access for products and categories
-*/
 
 -- Categories table
 CREATE TABLE IF NOT EXISTS categories (

@@ -1,21 +1,3 @@
-/*
-  # Add Carbon Credits and CO2 Emission System
-
-  1. New Tables
-    - `carbon_credits` - Track carbon credits earned through offsetting
-    - Update products table with weight and co2_emission fields
-    - Add carbon_credits to users table
-
-  2. CO2 Calculation
-    - Based on weight: 100g traveling 1000km = 20g CO2
-    - Formula: (weight_in_grams / 100) * (distance / 1000) * 20
-    - Assuming average shipping distance of 500km
-
-  3. Carbon Credits
-    - Earned only when customer pays for carbon offsetting
-    - 10 credits per 100 Rs spent on offsetting
-    - Credits can be used for future purchases or rewards
-*/
 
 -- Add weight and co2_emission columns to products
 DO $$
